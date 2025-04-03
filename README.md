@@ -54,7 +54,7 @@ See [Preparing Datasets for LITA](docs/Video_Data.md).
 
 ## Gradio Demo
 
-First, downlaod the LITA weights from above.
+First, download the LITA weights from above.
 ```Shell
 python -m lita.serve.gradio_web_server \
     --model-path <weights-dir>/lita-vicuna-v1-3-13b-finetune 
